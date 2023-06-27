@@ -4,9 +4,9 @@
 #include "main.h"
 #include <stddef.h>
 /**
- * _printf - recreates the printf function
- * @format: string with format specifier
- * Return: number of characters printed
+ * _printf - function that produces output according to a format
+ * @format: is a character string with format specifier
+ * Return: the number of the printed charachters
  */
 int _printf(const char *format, ...)
 {
