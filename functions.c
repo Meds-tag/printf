@@ -35,10 +35,11 @@ int print_s(va_list args)
 	}
 	return (count);
 }
+
 /**
- * print_percent - pass the percent sing
+ * print_percent - execute the percent symbol
  * @args: string  argument
- * Return: return the percent sing
+ * Return: return the percent symbol
  *
  */
 int print_percent(va_list args)
@@ -54,9 +55,9 @@ int print_percent(va_list args)
 }
 
 /**
- * print_d - prints a decimal
+ * print_d - stdout a decimal
  * @args: decimal argument
- * Return: counter
+ * Return: nmbr of
  */
 int print_d(va_list args)
 {
@@ -74,11 +75,11 @@ int print_d(va_list args)
 		else
 			absolute = n;
 
-	aux = absolute;
+	ab = absolute;
 	countnum = 1;
-	while (aux > 9)
+	while (ab > 9)
 	{
-		aux /= 10;
+		ab /= 10;
 		countnum *= 10;
 	}
 	while (countnum >= 1)
@@ -89,9 +90,9 @@ int print_d(va_list args)
 	return (count);
 }
 /**
- * print_i - prints integer
+ * print_i - prints integer same as print_d
  * @args: integer argument
- * Return: the decimal function
+ * Return: the print_d
  */
 
 int print_i(va_list args)
