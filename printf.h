@@ -2,7 +2,6 @@
 #define our_printf
 #include <stdio.h>
 #include <stdarg.h>
-#include "main.h"
 
 /**
  * struct specifier - struct specifier
