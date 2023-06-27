@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_func - look for the specifier
+ * get_func - checks the specifier
  * @x: variable to the function
  * Return: function
  */
