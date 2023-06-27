@@ -37,7 +37,7 @@ int print_s(va_list args)
 }
 
 /**
- * print_percent - execute the percent symbol
+ * print_percent - percent symbol
  * @args: string  argument
  * Return: return the percent symbol
  *
@@ -55,9 +55,9 @@ int print_percent(va_list args)
 }
 
 /**
- * print_d - stdout a decimal
+ * print_d - print a decimal
  * @args: decimal argument
- * Return: nmbr of
+ * Return: returnnmb
  */
 int print_d(va_list args)
 {
@@ -92,7 +92,7 @@ int print_d(va_list args)
 /**
  * print_i - prints integer same as print_d
  * @args: integer argument
- * Return: the print_d
+ * Return: return the function print d
  */
 
 int print_i(va_list args)
